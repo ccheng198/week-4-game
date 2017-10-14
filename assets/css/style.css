@@ -1,0 +1,165 @@
+/*
+figure out background image
+figure out float
+*/
+
+body {
+	background-image: url("../images/topography.png");
+}
+
+h1,
+p {
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+p {
+	line-height: 110%;
+}
+
+.titleBox {
+	color: #ffffff;
+	background-color: #de7d19;
+	width: 200px;
+	margin: 10px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.instructionsBox {
+	color: #228B22;
+	background-color: #FFE4C4;
+	width: 400px;
+	height: 300px;
+	margin: 10px;
+	padding: 20px 5px;
+}
+
+.randomNumberBox,
+.winsLossesBox {
+	color: #000000;
+}
+
+.randomNumberBox {
+	color: #000000;
+	background-color: #39ab39;
+	width: 125px;
+	height: 100px;
+	margin: 10px;
+	margin-right: 0px;
+	float: left;
+	font-size: 24px;
+}
+
+#randomNumber {
+	color: #000000;
+	text-align: left;
+	padding: 5px;
+	font-size: 30px;
+}
+
+.winsLossesBox {
+	color: #000000;
+	background-color: #00FFFF;
+	width: 75px;
+	height: 100px;
+	margin: 10px;
+	float: left;
+}
+
+#totalWins,
+#totalLosses,
+#announcement {
+	color: #000000;
+	text-align: left;
+	padding: 5px;
+	font-size: 14px;
+}
+
+#announcement {
+	padding-bottom: 15px;
+}
+
+#totalWins {
+	padding-bottom: 15px;
+}
+
+.randomNumberBoxAndWinsLossesBox {
+	margin-bottom: 10px;
+}
+
+#one,
+#two,
+#three,
+#four {
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	float: left;
+	color: #ffffff;
+}
+
+#one {
+	background-color: blue;
+}
+
+#two {
+	background-color: red;
+}
+
+#three {
+	background-color: green;
+}
+
+#four {
+	background-color: purple;
+}
+
+.totalScoreTextBox,
+.totalScoreNumberBox {
+	color: #ffffff;
+}
+
+.totalScoreTextBox {
+	color: #ffffff;
+	background-color: #20B2AA;
+	width: 150px;
+	height: 25px;
+	margin: 10px;
+	float: none;
+}
+
+#totalScoreText {
+	color: #ffffff;
+	text-align: left;
+	padding: 5px;
+}
+
+.totalScoreNumberBox {
+	color: #ffffff;
+	background-color: #20B2AA;
+	width: 150px;
+	height: 75px;
+	margin: 10px;
+	font-size: 24px;
+	float: none;
+}
+
+#totalScoreNumber {
+	color: #ffffff;
+	text-align: left;
+	font-size: 30px;
+	padding: 5px;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
